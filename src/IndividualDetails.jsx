@@ -14,7 +14,7 @@ const IndividualDetails = () => {
   }
 
   const handleBack = () => {
-    navigate(`../details`);
+    navigate(`/`);
   };
 
   return (
