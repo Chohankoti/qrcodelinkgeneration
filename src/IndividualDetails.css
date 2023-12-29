@@ -1,0 +1,27 @@
+/* IndividualDetails.css */
+.individual-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .individual-details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .individual-details-table td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .individual-details-table {
+      font-size: 14px;
+    }
+  
+    .individual-details-table td {
+      padding: 6px;
+    }
+  }
+  
