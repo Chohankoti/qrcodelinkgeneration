@@ -2,7 +2,7 @@
 import React from "react";
 import familyData from "./familyData";
 import { useParams, useNavigate } from "react-router-dom";
-import "./IndividualDetails.css"; // Import the external stylesheet
+import "./IndividualDetails.css"; 
 
 const IndividualDetails = () => {
   const { id } = useParams();
@@ -43,7 +43,7 @@ const IndividualDetails = () => {
           </tr>
         </tbody>
       </table>
-      <button onClick={() => handleBack()}>Back</button>
+      <button onClick={() => handleBack()}>Back to Complete</button>
     </div>
   );
 };
